@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import  javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" fx:id="pane" prefHeight="600.0" prefWidth="800.0" xmlns:fx="http://javafx.com/fxml" fx:controller="simpleimagepresenter.Page8">
+    <children>
+        <Text id="p1" fx:id="p1" fill="WHITE" layoutX="200.0" layoutY="300.0" stroke="WHITE" text="to the end ..." >
+            <font><Font size="32.0" fx:id="x1" /></font>
+        </Text>
+        <Text fx:id="p2" fill="WHITE" font="$x1" layoutX="300.0" layoutY="400.0" stroke="WHITE" text="ほっ・・・" />
+    </children>
+    
+</AnchorPane>

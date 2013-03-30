@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import  javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.geometry.*?>
+
+<AnchorPane id="AnchorPane" fx:id="pane" prefHeight="600.0" prefWidth="800.0" xmlns:fx="http://javafx.com/fxml" fx:controller="simpleimagepresenter.Page7">
+    <children>
+        <HBox layoutX="50" layoutY="50" prefHeight="200" prefWidth="700" style="-fx-background-color: WHITE;">
+            <children>
+                <VBox >
+                    <padding><Insets top="10" right="10" bottom="10" left="10"/></padding>
+                    <children>
+                        <Text fx:id="t1_1">
+                            <font><Font size="24.0" fx:id="x1" /></font>            
+                        </Text>
+                        <HBox>
+                            <children>
+                                <Text fx:id="t1_2_1" font="$x1" />
+                                <Text fx:id="t1_2_2" fill="BLUE" font="$x1" />
+                                <Text fx:id="t1_2_3" font="$x1" />                                
+                            </children>
+                        </HBox> 
+                        <HBox>
+                            <children>
+                                <Text fx:id="t1_3_1" font="$x1" />
+                                <Text fx:id="t1_3_2" fill="ORANGE" font="$x1" />
+                                <Text fx:id="t1_3_3" font="$x1" />                                
+                            </children>
+                        </HBox> 
+                        <Text fx:id="t1_4" font="$x1" />
+                        <Text fx:id="t1_5" font="$x1" />
+                    </children>
+                </VBox>
+            </children>
+        </HBox>
+        <HBox layoutX="50" layoutY="300" prefHeight="250" prefWidth="700" style="-fx-background-color: WHITE;">
+            <children>
+                <VBox >
+                    <padding><Insets top="10" right="10" bottom="10" left="10"/></padding>
+                    <children>
+                        <HBox>
+                            <children>
+                                <Text fx:id="t2_1_1" font="$x1" />
+                                <Text fx:id="t2_1_2" fill="BLUE" font="$x1" />
+                                <Text fx:id="t2_1_3" font="$x1" />                                
+                            </children>
+                        </HBox> 
+                        <HBox>
+                            <children>
+                                <Text fx:id="t2_2_1" font="$x1" />
+                                <Text fx:id="t2_2_2" fill="ORANGE" font="$x1" />
+                                <Text fx:id="t2_2_3" font="$x1" />                                
+                            </children>
+                        </HBox>
+                        <HBox>
+                            <children>
+                                <Text fx:id="t2_3" font="$x1" />
+                            </children>
+                        </HBox>
+                        <Text fx:id="t2_4" font="$x1" />
+                        <HBox>
+                            <children>
+                                <Text fx:id="t2_5_1" font="$x1" />
+                                <Text fx:id="t2_5_2" fill="ORANGE" font="$x1" />
+                                <Text fx:id="t2_5_3" font="$x1" />
+                            </children>
+                        </HBox>
+                        <Text fx:id="t2_6" font="$x1" />
+                        <Text fx:id="t2_7" font="$x1" />
+                    </children>
+                </VBox>
+            </children>
+        </HBox>
+        
+    </children>
+    
+</AnchorPane>

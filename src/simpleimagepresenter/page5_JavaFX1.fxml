@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import  javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" fx:id="pane" prefHeight="600.0" prefWidth="800.0" xmlns:fx="http://javafx.com/fxml" fx:controller="simpleimagepresenter.Page5">
+    <children>
+        <Text fx:id="t1" fill="WHITE" layoutX="100.0" layoutY="100.0" stroke="WHITE" text="JavaFXのプレゼンツール" >
+            <font><Font size="48.0" /></font>
+        </Text>
+        <Text fx:id="p1" fill="WHITE" layoutX="50" layoutY="200" stroke="WHITE" text="一石二鳥になるのでは！" >
+            <font><Font size="36.0" fx:id="x1" /></font>            
+        </Text>
+        <Text fx:id="p2" fill="WHITE" layoutX="50" layoutY="300" stroke="WHITE" text="アニメーションを使って個性的なスライド作成" >
+            <font><Font size="26.0" fx:id="x2" /></font>            
+        </Text>
+        <Text fx:id="p3" fill="WHITE" font="$x2" layoutX="50" layoutY="400"  stroke="WHITE" text="JavaFXの勉強にもなるし" />
+        <Text fx:id="p4" fill="WHITE" font="$x2" layoutX="150" layoutY="500"  stroke="WHITE" text="しかも・・・" />
+    </children>
+    
+</AnchorPane>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import  javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" fx:id="pane" prefHeight="600.0" prefWidth="800.0" xmlns:fx="http://javafx.com/fxml" fx:controller="simpleimagepresenter.Page4">
+    <children>
+        <Text fx:id="t1" fill="WHITE" layoutX="100.0" layoutY="100.0" stroke="WHITE" text="勉強会に参加して" >
+            <font><Font size="48.0" /></font>
+        </Text>
+        <Text fx:id="p1" fill="WHITE" layoutX="50" layoutY="200" stroke="WHITE" text="ブログ・・・" >
+            <font><Font size="32.0" fx:id="x1" /></font>            
+        </Text>
+        <Text fx:id="p2" fill="WHITE" font="$x1" layoutX="250" layoutY="200" stroke="WHITE" text="なんとか" >
+            <font><Font size="26.0" fx:id="x2" /></font>            
+        </Text>
+        <Text fx:id="p3" fill="WHITE" font="$x1" layoutX="50" layoutY="300"  stroke="WHITE" text="MBA・・・" />
+        <Text fx:id="p4" fill="WHITE" font="$x2" layoutX="250" layoutY="300"  stroke="WHITE" text="買った（全然使いこなせてないが）" />
+        <Text fx:id="p5" fill="WHITE" font="$x1" layoutX="50" layoutY="400"  stroke="WHITE" text="iPhone・・・" />
+        <Text fx:id="p6" fill="WHITE" font="$x2" layoutX="250" layoutY="400"  stroke="WHITE" text="買った" />
+        <Text fx:id="p7" fill="WHITE" font="$x1" layoutX="50" layoutY="500"  stroke="WHITE" text="Twitter・・・" />
+        <Text fx:id="p8" fill="WHITE" font="$x2" layoutX="250" layoutY="500"  stroke="WHITE" text="はじめた" />
+    </children>
+    
+</AnchorPane>
